@@ -29,12 +29,16 @@ export default function Hero() {
                  variants={container(0.5)}
                  initial="hidden"
                  animate="visible"
-                 className=' bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>Full Stack Web Devloper</motion.span>
+                 className=' bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'> Web Devloper</motion.span>
                 <motion.p 
                  variants={container(1)}
                  initial="hidden"
                  animate="visible"
-                className='my-2 max-x-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
+                className='my-2 max-x-xl py-6 font-light tracking-tighter'>As a web developer, I have honed my skills in modern front-end frameworks like React and Next.js, alongside robust back-end technologies such as Java, PHP, and MySQL. I thrive on transforming ideas into reality through code, ensuring that every project meets the highest standards of quality and user engagement.
+               <br/>
+               <br/>
+                I’m always excited to discuss new projects and opportunities. Feel free to reach out to me via the contact form below, or connect with me on social media.
+                </motion.p>
             </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">

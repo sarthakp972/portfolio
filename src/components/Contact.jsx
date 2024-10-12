@@ -21,8 +21,13 @@ export default function Contact() {
            whileInView={{opacity:1,x:0}}
            initial={{opacity:0,y:100}}
            transition={{duration:1}}
-        className='my-4'>+91 7649062706</motion.p>
-        <a href="#" className='border-b'>sarthakpatwa972@gmail.com</a>
+        className='my-4'>
+           <a href="tel:+917649062706">7649062706</a> 
+          </motion.p>
+
+
+
+        <a href="mailto:sarthakpatwa972@gmail.com?subject=Hello&body=I%20would%20like%20to%20discuss..." className='border-b'>sarthakpatwa972@gmail.com</a>
       </div>
     </div>
   )

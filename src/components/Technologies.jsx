@@ -2,6 +2,9 @@ import React from 'react'
 import {RiReactjsLine} from "react-icons/ri"
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPhp, FaBootstrap, FaGithub, FaJava, FaTable  } from "react-icons/fa";
 // import {BiLogoPostgresql} from "react-icons/bi"
+import { SiCplusplus } from 'react-icons/si';
+import { MdCheckCircle } from 'react-icons/md';
+import { BsBootstrap } from 'react-icons/bs';
 import { animate, motion } from "framer-motion"
 const iconVariants=(duration)=>({
     initial:{y:-10},
@@ -91,6 +94,24 @@ export default function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaJava className='text-7xl text-red-600'/>
             </motion.div>
+
+            <motion.div 
+               variants={iconVariants(2.5)}
+               initial="initial"
+               animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <BsBootstrap className='text-7xl text-beige'/>
+            </motion.div>
+
+
+            <motion.div 
+               variants={iconVariants(2.5)}
+               initial="initial"
+               animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                < SiCplusplus className='text-7xl text-blue-600'/>
+            </motion.div>
+        
 
         </motion.div>
       

@@ -1,11 +1,17 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import patwautensils from "../assets/projects/patwa-utensils.png";
+import currency from "../assets/projects/currency-convert.png";
+import portfolio from "../assets/projects/portfolio.png";
+import pumaecommerce from "../assets/projects/puma-ecommerce.jpeg"
+import wordlength from "../assets/projects/Word-length.png";
+import Tudo from "../assets/projects/Tudo-list.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Java,PHP, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PHP, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;  
 
 export const EXPERIENCES = [
   {
@@ -40,33 +46,57 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Text Manipulation Tool Built with React JS",
+    image: wordlength,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "I created a dynamic web application using React JS that provides users with essential text manipulation functionalities. With this interactive tool, users can easily:",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Location Track",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "developed a real-time location tracking application using React.js, integrating APIs for geolocation services to provide users with seamless tracking and sharing capabilities. This project demonstrates modern web development techniques while ensuring a responsive and user-friendly interface..",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Utensils-Store",
+    image: patwautensils,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "I created a comprehensive e-commerce website titled 'Patwa Bartan Bhandar' dedicated to providing a wide range of utensils and kitchenware. This application is built using Vite and React for a modern, efficient, and scalable front-end experience, while Tailwind CSS ensures a responsive and visually appealing design..",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
+  {
+    title: "Currency Convert",
+    image: currency,
+    description:
+      "I developed a fully responsive currency converter web application using Vite and React, leveraging modern web technologies to ensure an optimal user experience. The application interfaces with a reliable currency conversion API to provide real-time exchange rates, allowing users to seamlessly convert between various currencies.",
+    technologies: [ "CSS", "Vite", "React"],
+  },
+
+  {
+    title: "Tudo App",
+    image: Tudo ,
+    description:
+      "A basic To-Do List app built using Next.js is a straightforward application designed to help users manage tasks efficiently. This app allows users to add, edit, and delete tasks, providing a simple interface for task management..",
+    technologies: [ "CSS", "Vite", "React"],
+  },
+
+  {
+    title: "Shoe Ecommerce Website",
+    image:pumaecommerce,
+    description:
+      "Creating a shoe website using PHP, JavaScript, SQL, and jQuery involves developing a dynamic e-commerce platform that showcases various shoe products, enables user interaction, and facilitates online transactions..",
+    technologies: [ "CSS", "Vite", "React"],
+  },
+
 ];
 
 export const CONTACT = {
