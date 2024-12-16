@@ -3,9 +3,10 @@ import {RiReactjsLine} from "react-icons/ri"
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPhp, FaBootstrap, FaGithub, FaJava, FaTable  } from "react-icons/fa";
 // import {BiLogoPostgresql} from "react-icons/bi"
 import { SiCplusplus } from 'react-icons/si';
-import { MdCheckCircle } from 'react-icons/md';
+// import { MdCheckCircle } from 'react-icons/md';
 import { BsBootstrap } from 'react-icons/bs';
 import { animate, motion } from "framer-motion"
+// import { BeakerIcon } from '@heroicons/react/outline'; 
 const iconVariants=(duration)=>({
     initial:{y:-10},
     animate:{
