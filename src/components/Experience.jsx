@@ -45,11 +45,8 @@ export default function Experience() {
         </motion.div>
       </div>
      </div>
-
-    
-    </div>
-    {/* ///////////////////// */}
-    <div>
+{/* ////////////////////////////////// */}
+<div>
       <div className='mb-8 flex flex-wrap lg:justify-center'>
 
         <motion.div 
@@ -80,6 +77,10 @@ export default function Experience() {
         </motion.div>
       </div>
      </div>
+    
+    </div>
+    {/* ///////////////////// */}
+   
    
 </>
   );
